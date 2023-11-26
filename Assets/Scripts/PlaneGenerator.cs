@@ -4,7 +4,7 @@ using UnityEngine;
 [RequireComponent(typeof(MeshFilter))]
 public class PlaneGenerator : MonoBehaviour
 {
-    [SerializeField] private Vector2 dimensions = new(0, 0);
+    public Vector2 dimensions = new(0, 0);
     private Vector2 _prevDimensions;
 
     [SerializeField] private int resolution = 1;
