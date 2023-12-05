@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 97903353}
   - component: {fileID: 97903352}
   m_Layer: 0
-  m_Name: Spawner
+  m_Name: Grass Spawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -205,9 +205,9 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  vertexCount: 11
+  vertexCount: 5
   bladeHeight: 1
-  grassMaterial: {fileID: 2100000, guid: 10703f85100874b85910e0616e9ce011, type: 2}
+  grassMaterial: {fileID: 2100000, guid: 9daee9be443504e7bb84d40836313b02, type: 2}
   bladeCount: 5000
 --- !u!4 &97903353
 Transform:
